@@ -1,7 +1,7 @@
 # 16S_Tools
 Tools to process files related to 16S amplicon sequencing data.
-## custom categorize_by_function.py
-This script is intended to categorize PICRUSt1 output KO abundance tab-separated values file by function. It can handle PICRUSt1 tab-separated values file rather than biom file, and also [PICRUSt2](https://github.com/picrust/picrust2) output tab-separated values file (pred_metagenome_unstrat.tsv), although run_minpath.py is available. Only KO categorizing are supported.
+## custom script like categorize_by_function.py
+This script is intended to categorize PICRUSt1 output KO abundance tab-separated values file by function. It can handle PICRUSt1 tab-separated values file rather than biom file, and also [PICRUSt2](https://github.com/picrust/picrust2) output tab-separated values file (pred_metagenome_unstrat.tsv), although run_minpath.py is available and have better inference [[MinPath Paper](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000465)]. Only KO categorizing are supported.
 
 First you should make tab-separated mapping file from ko_13_5_precalculated.tab.gz in PICRUSt1, where column named “KO”, “KEGG_Description”, “KEGG_Pathways” each correspond to first line, second last line, last line of the file.
 
