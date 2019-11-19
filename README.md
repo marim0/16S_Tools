@@ -17,3 +17,4 @@ usage: python cbf.py –d 1 –l 3 –m map.tab –i inputfile.tab –o outputfi
 
 - NOTE1: Some of KO from PICRUSt2 output would be filtered as they are not listed in PICRUSt1 pre-calculated file.
 - NOTE2: The result of categorizing to level 3 by categorize_by_function.py (input is PICRUSt1 predict_metagenomes.py BIOM) and categorizing to level 3 by this script (input is the tsv converted by biom-format from the same BIOM file) were compared, and pearson correlation coefficient was all 1.0 except all-zero pathways.
+- NOTE3: There is now an official script: https://github.com/picrust/picrust2/wiki/Frequently-Asked-Questions#how-can-i-run-categorize_by_functionpy-like-in-picrust1
